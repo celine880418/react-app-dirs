@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Splash from "./pages/Splash";
 import Login from "./pages/Login";
 import Profile from "./pages/Profile";
+import PostDetail from "./pages/PostDetail";
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Splash />} />
         <Route path="login" element={<Login />} />
         <Route path="profile" element={<Profile />} />
+        <Route path="postdetail" element={<PostDetail />} />
       </Routes>
     </div>
   );
