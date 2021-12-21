@@ -9,7 +9,7 @@ function Profile() {
       <div className="Profile flex-col">
         <div className="header flex-row">
           <div className="header-item">Settings</div>
-          <div className="header-item-main">Profile</div>
+          <div className="header-item-main">Footprint</div>
           <div className="header-item">Logout</div>
         </div>
         <div className="user-info flex-col">
